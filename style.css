@@ -1,0 +1,33 @@
+#container {
+    border-radius: 12px;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 15em;
+    overflow: hidden;
+
+}
+
+  #container > * {
+    padding: 0.5em 1.25em;
+    text-align: center;
+  }
+  
+
+ #buttons {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ #buttons > * {
+    background-color: #fff;
+    padding: 0.5em 1.25em;
+    text-align: center;
+    display: inline-flex;
+    
+  }
+
+  #container > * :hover {
+    background-color: #e5e5e5;
+  }
